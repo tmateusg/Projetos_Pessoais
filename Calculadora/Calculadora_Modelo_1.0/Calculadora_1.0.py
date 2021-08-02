@@ -11,7 +11,7 @@ while opção != 6:
     [4] Dividir
     [5] Digitar novos numeros
     [6] Sair da consulta''')
-    opção = int(input('Que deseja fazer? '))
+    opção = int(input('O que deseja fazer? '))
     if opção == 1:
         soma = numero1 + numero2
         print(f'A soma entre {numero1} e {numero2} é = {soma}')
