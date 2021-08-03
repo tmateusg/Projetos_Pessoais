@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91b409a4-8071-4d75-b62e-73ffb6fab565" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Readme2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora_Modelo_1.2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora_Modelo_1.2/.idea/Calculadora_Modelo_1.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora_Modelo_1.2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora_Modelo_1.2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora_Modelo_1.2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora_Modelo_1.2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora_Modelo_1.2/caluladora_modelo_1.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora_Modelo_1.2/funcoes_DEF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculadora_Modelo_1.1/Calculadora_Modelo_1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculadora_Modelo_1.1/Calculadora_Modelo_1.1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
