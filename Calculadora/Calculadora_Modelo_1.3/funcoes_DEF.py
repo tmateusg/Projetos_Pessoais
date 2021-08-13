@@ -1,28 +1,22 @@
-def valida_numero(numero):
-    valido = False
-    valor = 0
+def valida_numero(msg):
     while True:
-        entrada = str(input(numero))
-        if entrada.isnumeric():
-                valor = int(entrada)
-                valido = True
-        else:
+        entrada = str(input(msg)).strip().replace(',', '.')
+        if entrada.isalpha() or entrada == '':
             print('ERRO! Digite um número valido.')
-        if valido:
-            break
-    return valor
+        else:
+            return float(entrada)
 
 
 def operacoes(numero1, numero2):
     soma = numero1 + numero2
-    subtracao = numero1 - numero2
+    #subtracao = numero1 - numero2
     multiplicacao = numero1 * numero2
     divisao = numero1 / numero2
 
-    print(f'A soma de {numero1} + {numero2} é = \t\t\t{soma:.2f}')
-    print(f'A subtracao de {numero1} - {numero2} é = \t\t{subtracao:.2f}')
-    print(f'A multiplicacao de {numero1} * {numero2} é = {multiplicacao:.2f}')
-    print(f'A divisao de {numero1} / {numero2} é =\t\t{divisao:.2f}')
+    print(f'A soma de {numero1} + {numero2} = {soma:.2f}')
+    #print(f'A subtracao de {numero1} - {numero2} = {subtracao:.2f}')
+    print(f'A multiplicacao de {numero1} * {numero2} = {multiplicacao:.2f}')
+    print(f'A divisao de {numero1} / {numero2} = {divisao:.2f}')
     print('#' * 40)
 
 

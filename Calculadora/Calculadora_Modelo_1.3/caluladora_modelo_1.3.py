@@ -3,7 +3,7 @@ from time import sleep
 
 numero1 = valida_numero('Digite o primeiro valor: ')
 numero2 = valida_numero('Digite o segundo valor: ')
-operacoes(numero1, numero2)
+
 
 opção = 0
 while opção != 3:
@@ -16,8 +16,8 @@ while opção != 3:
         operacoes(numero1, numero2)
     elif opção == 2:
         print('Digite novos valores:')
-        numero1 = float(input('Digite o primeiro valor: '))
-        numero2 = float(input('Digite o segundo valor: '))
+        numero1 = str(input('Digite o primeiro valor: '))
+        numero2 = str(input('Digite o segundo valor: '))
     elif opção == 3:
         print('Finalizado...')
     else:
