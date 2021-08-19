@@ -6,5 +6,4 @@
 #### C- Unificando as fuções aritmeticas.
 
 1. Interfase.
-2. Aceitar só numeros inteiros.
-3. Operar com mais de 2 valores.
+2. Operar com mais de 2 valores.
