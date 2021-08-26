@@ -16,10 +16,10 @@ def operacoes(numero1, numero2):
     multiplicacao = numero1 * numero2
     divisao = numero1 / numero2
 
-    print(f'A soma de {numero1} + {numero2} =           {soma:.2f}')
-    print(f'A subtração de {numero1} - {numero2} =      {subtracao:.2f}')
-    print(f'A multiplicacao de {numero1} * {numero2} =  {multiplicacao:.2f}')
-    print(f'A divisao de {numero1} / {numero2} =        {divisao:.2f}')
+    print(f'A soma = {soma:15.2f}')
+    print(f'A subtração = {subtracao:10.2f}')
+    print(f'A multiplicacao = {multiplicacao:6.2f}')
+    print(f'A divisao = {divisao:12.2f}')
     print('¬' * 40)
 
 
