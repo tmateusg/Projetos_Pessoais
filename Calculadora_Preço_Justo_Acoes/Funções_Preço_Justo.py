@@ -30,3 +30,4 @@ def consulta():
         print(f'\033[1;31mNÃO Comprar!\033[m O valor da ação esta acima \033[1;31m{(Margem_Segurança * -1):.2f}%\033[m do preço justo.')
 
     print('\033[4;33m\nOBS:Valor obtido tendo como referência a fórmula de Benjamim Graham.')
+
