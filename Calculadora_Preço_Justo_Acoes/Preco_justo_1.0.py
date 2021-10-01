@@ -1,4 +1,4 @@
 from Funções_Preço_Justo import *
 
-cabeçario()
+cabecario()
 consulta()
