@@ -1,7 +1,6 @@
 
 import math
 
-
 def cabecario():
     msg = 'Calculadora de Preço Justo de Ações'
     tam = len(msg) + 6
