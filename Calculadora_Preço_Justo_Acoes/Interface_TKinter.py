@@ -8,40 +8,76 @@ def calcular():
     Resp.set(str(round(preco_justo, 2)))
 
 
-
 #JANELA
 janela = Tk()
-janela.title('Calculadora Preço justo de Ações')
-#janela.geometry('300x100')
+#janela.title('Calculadora Preço Justo')
+janela.geometry('200x200+500+300')
+janela.resizable(False, False)
 Resp = StringVar() #
 
 #MOLDURA
 moldura_janela = Frame(janela)
 
-#ITENS
-lbl_Tit = Label(janela, text='Digite os valores')
-lbl_vpa = Label(moldura_janela, text='Valor de VPA')
-lbl_lpa = Label(moldura_janela, text='Valor de LPA')
-lbl_preco = Label(moldura_janela, text='Preço Justo')
-lbl_Resp = Label(moldura_janela, textvariable=Resp) #
-box_vpa = Entry(moldura_janela, justify=CENTER)
-box_lpa = Entry(moldura_janela, justify=CENTER)
-btn_preco = Button(moldura_janela, text='Calcular', command=calcular)
+#Etiquetas
+lbl_Tit = Label(janela,
+                text='Digite os Valores',
+                font='Arial 12',
+                justify=CENTER,
+                fg='black')
 
-#box_vpa.insert(END, 0)
-#box_lpa.insert(END, 0)
+lbl_vpa = Label(moldura_janela,
+                text='Valor de VPA',
+                font='Arial 10',
+                fg='red',
+                justify=CENTER)
+
+lbl_lpa = Label(moldura_janela,
+                text='Valor de LPA',
+                font='Arial 10',
+                fg='red',
+                justify=CENTER)
+
+lbl_Espaco = Label(moldura_janela,)
+
+lbl_preco = Label(moldura_janela,
+                  text='Preço Justo',
+                  font='Arial 10',
+                  justify=CENTER)
+
+lbl_Resp = Label(moldura_janela,
+                 textvariable=Resp,
+                 font='Arial 10',
+                 width=6,
+                 bd=2, relief='solid',) #
+
+#Caixas de Texto
+box_vpa = Entry(moldura_janela,
+                font='Arial 11',
+                justify=CENTER,
+                bg='orange',
+                width=6)
 box_vpa.focus()
 
-#Posicionamento
-lbl_Tit.grid(row=0, column=0)
-lbl_vpa.grid(row=0, column=0)
-lbl_lpa.grid(row=1, column=0)
-lbl_preco.grid(row=2, column=0)
-lbl_Resp.grid(row=2, column=1)
+box_lpa = Entry(moldura_janela,
+                font='Arial 11',
+                justify=CENTER,
+                bg='orange',
+                width=6)
+
+#Botao
+btn_preco = Button(moldura_janela, text='Calcular', command=calcular)
+
+
+#posicionamento
+lbl_Tit.grid(row=0, column=0,)
+lbl_vpa.grid(row=0, column=0,)
+lbl_lpa.grid(row=1, column=0, sticky='w')
+lbl_Espaco.grid(row=2, column=0)
+lbl_preco.grid(row=3, column=0)
+lbl_Resp.grid(row=3, column=1)
 box_vpa.grid(row=0, column=1)
 box_lpa.grid(row=1, column=1)
-btn_preco.grid(row=3, column=1)
+btn_preco.grid(row=4, column=1)
 
 moldura_janela.grid()
-
 janela.mainloop()
